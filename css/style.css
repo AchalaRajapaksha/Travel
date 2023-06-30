@@ -999,11 +999,23 @@ div.cs-select span {
   .feature-left .feature-copy {
     width: 85%;
   }
+  #fh5co-blog-section  img{
+    width: 100%;
+    height:auto;
+  }
+
 }
 @media screen and (max-width: 480px) {
   .feature-left .feature-copy {
     width: 80%;
   }
+
+  #fh5co-blog-section  img{
+    width: 100%;
+    height:auto;
+  }
+
+
 }
 .feature-left .feature-copy h3 {
   font-size: 18px;
@@ -1528,10 +1540,13 @@ div.cs-select span {
 }
 
 .fh5co-blog {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 200px;
 }
 .fh5co-blog a img {
   width: 100%;
+
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog {
@@ -1540,9 +1555,10 @@ div.cs-select span {
 }
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
-  position: relative;
+  position:relative;
   background: #fff;
-  width: 100%;
+  width: 350px;
+  height: 400px;
   padding: 30px;
   float: right;
   -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
@@ -1552,6 +1568,7 @@ div.cs-select span {
 .fh5co-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
+  
 }
 .fh5co-blog .blog-text span.posted_by {
   font-style: italic;
@@ -1606,6 +1623,11 @@ div.cs-select span {
   #map {
     height: 200px;
   }
+
+
+
+
+
 }
 
 .fh5co-social-icons > a {
@@ -1997,8 +2019,13 @@ div.cs-select span {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
+#fh5co-blog-section  img{
+  width: 400px;
+  height: 300px;
 
 
+
+}
 
 
 /*# sourceMappingURL=style.css.map */
