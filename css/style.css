@@ -1002,6 +1002,8 @@ div.cs-select span {
   #fh5co-blog-section  img{
     width: 100%;
     height:auto;
+
+
   }
 
 }
@@ -1009,6 +1011,7 @@ div.cs-select span {
   .feature-left .feature-copy {
     width: 80%;
   }
+
 
   #fh5co-blog-section  img{
     width: 100%;
@@ -1549,9 +1552,22 @@ div.cs-select span {
 
 }
 @media screen and (max-width: 768px) {
-  .fh5co-blog {
+  #fh5co-blog-section {
     width: 100%;
   }
+
+  #blog-text {
+    width: 100%;
+   
+}
+
+#fh5co-blog-section  img{
+  width: 100%;
+  
+
+
+}
+
 }
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
@@ -1934,6 +1950,15 @@ div.cs-select span {
     float: none;
     width: 100%;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .fh5co-blog  {
+        width: auto;
+    
+  }
+
+
 }
 
 .row-bottom-padded-lg {
