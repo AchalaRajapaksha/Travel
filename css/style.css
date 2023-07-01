@@ -240,8 +240,10 @@ figure {
   font-size: 60px;
   font-weight: bold;
 }
+
+
 @media screen and (max-width: 768px) {
-  .fh5co-cover .desc .desc2 {
+  .fh5co-cover .desc .desc2 .main{
     display: none;
   }
 }
@@ -1556,21 +1558,19 @@ width: 100%;
   }
 
   .fh5co-blog {
-   
+  
     width: 100%;
   }
 
   .fh5co-blog .blog-text {
   width: 100%;
-
+  float:left;
 
   }
 
 #fh5co-blog-section  img{
   width: 100%;
-  overflow: hidden;
-
-
+float: left;
 }
 
 }
