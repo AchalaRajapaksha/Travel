@@ -999,27 +999,25 @@ div.cs-select span {
   .feature-left .feature-copy {
     width: 85%;
   }
-  #fh5co-blog-section  img{
-    width: 100%;
-    height:auto;
-
-
-  }
-
+ 
 }
 @media screen and (max-width: 480px) {
   .feature-left .feature-copy {
     width: 80%;
   }
+}
 
+@media screen and (max-width: 768px) {
+  .fh5co-blog-section {
+   
+width: 100%;
 
-  #fh5co-blog-section  img{
-    width: 100%;
-    height:auto;
   }
 
-
 }
+
+
+
 .feature-left .feature-copy h3 {
   font-size: 18px;
   color: #1a1a1a;
@@ -1543,9 +1541,9 @@ div.cs-select span {
 }
 
 .fh5co-blog {
-  margin-bottom: 20px;
-  width: 350px;
-  height: 200px;
+  margin-bottom: 10px;
+  width: 370px;
+  height: 300px;
 }
 .fh5co-blog a img {
   width: 100%;
@@ -1554,16 +1552,23 @@ div.cs-select span {
 @media screen and (max-width: 768px) {
   #fh5co-blog-section {
     width: 100%;
+    overflow: hidden;
   }
 
-  #blog-text {
-    width: 100%;
+  .fh5co-blog {
    
-}
+    width: 100%;
+  }
+
+  .fh5co-blog .blog-text {
+  width: 100%;
+
+
+  }
 
 #fh5co-blog-section  img{
   width: 100%;
-  
+  overflow: hidden;
 
 
 }
@@ -1572,8 +1577,9 @@ div.cs-select span {
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position:relative;
+  float: left;
   background: #fff;
-  width: 350px;
+  width: relative;
   height: 400px;
   padding: 30px;
   float: right;
@@ -1954,7 +1960,7 @@ div.cs-select span {
 
 @media screen and (max-width: 768px) {
   .fh5co-blog  {
-        width: auto;
+        width: 100%;
     
   }
 
@@ -2045,7 +2051,7 @@ div.cs-select span {
 }
 
 #fh5co-blog-section  img{
-  width: 400px;
+  width:relative;
   height: 300px;
 
 
